@@ -14,7 +14,7 @@ Aus Sicht des Autors sind dies:
 * Visual Studio Code
 * Bash und das Windows Subsystem for Linux
 * Wichtige Kommandozeilenwerkzeuge (curl, wget etc.)
-* Virtuelle Maschinen (geplant)
+* Virtuelle Maschinen
 * VPN-Clients
 * SQL-Clients (geplant)
 
