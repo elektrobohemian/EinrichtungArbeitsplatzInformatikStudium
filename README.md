@@ -14,7 +14,7 @@ Aus Sicht des Autors sind dies:
 * Visual Studio Code
 * Bash und das Windows Subsystem for Linux
 * Wichtige Kommandozeilenwerkzeuge (curl, wget etc.)
-* Virtuelle Maschinen
+* Virtuelle Maschinen und Containervirtualisierung
 * VPN-Clients
 * SQL-Clients (geplant)
 
@@ -189,12 +189,19 @@ Um die komplexen Funktionen kennenzulernen, bietet sich das Studium dieses [Tuto
 ### nano
 Der Texteditor `nano` verbreitet sich immer mehr auf Linux-Servern und glänzt durch seine einfache Bedienung, da am unteren Ende des Bildschirms die wichtigsten Befehle eingeblendet werden. Hiermit gelingt es Ihnen relativ einfach und fast wie von einer GUI gewohnt, Texte zu editieren.
 
-## Virtuelle Maschinen
+## Virtuelle Maschinen und Containervirtualisierung
 
-Es gibt viele kommerzielle Anbieter von Virtualisierungslösungen, für die meisten Einsatzzwecke in Ihrem Studium wird jedoch die Lösung [VirtualBox](https://www.virtualbox.org/) ausreichen.
+### Virtuelle Maschinen
+
+Es gibt viele kommerzielle Anbieter von Virtualisierungslösungen, für die meisten Einsatzzwecke in Ihrem Studium wird jedoch die Lösung [VirtualBox](https://www.virtualbox.org/) ausreichen. VirtualBox ist für alle Betriebssysteme verfügbar.
 
 Mithilfe einer Virtualisierungssoftware können Sie verschiedene Betriebsysteme unter einem Host-Betriebssystem (z.B. Windows oder Linux) in einer [virtuellen Maschine (VM)](https://de.wikipedia.org/wiki/Virtuelle_Maschine) betreiben. Das ist insofern ein Vorteil, dass Sie auf Ihrem Rechner auch weitere Betriebssysteme zu Testzwecken betreiben können und diese jederzeit in einen vorigen Zustand zurücksetzen können, da VMs zumeist auch Snapshot-Funktionen bieten, welche den Zustand einer VM zu einem bestimmten Zeitpunkt sichern.
 
+### Containervirtualisierung
+
+Eine leichtgewichtigere Alternative zum Einsatz von virtuellen Maschinen stellt die [Containervirtualisierung](https://de.wikipedia.org/wiki/Containervirtualisierung) dar. Bei der Containervirtualisierung werden bestimmte Ressourcen des Betriebssystems, wie z.B. das Dateisystem oder Peripheriegeräte, vor ausgeführten Programmen verborgen. Im Gegensatz zur VM ist es jedoch nicht möglich, das Betriebssystem zu virtualisieren, d.h. Container und Host-Betriebssystem bleiben gleich. Aus der Sicht der Softwareentwicklung sind Container praktisch, da sie es ermöglichen, auf einem Rechner Anwendungen zu betreiben, die isoliert voneinander, beispielsweise verschiedene Versionsstände von Programmbibliotheken nutzen. Dies wird durch die Isolierung des Dateisystems möglich.
+
+Durch seine nutzerfreundlichen Tools hat [Docker](https://de.wikipedia.org/wiki/Docker_(Software)) der Containervirtualisierung zum Durchbruch auf weiter Front verholfen. Viele Open-Source-Werkzeuge werden auch als Docker-Image angeboten. Die notwendige Laufzeitumgebung und Konfigurationswerkzeuge für Docker können für alle Betriebssysteme [heruntergeladen](https://www.docker.com/get-started) werden.
 ## VPN-Clients
 
 [Virtual-Private-Network](https://de.wikipedia.org/wiki/Virtual_Private_Network)-Clients dienen dazu, dass Sie sich von Ihrem Privatgerät aus z.B. mit dem Netzwerk Ihrer Hochschule verbinden können. Dadurch kommen Sie in die Lage, Server zu erreichen, die nur im Hochschulnetz erreichbar sind. Ein weiterer Anwendungsfall ist der Zugriff auf Ressourcen Ihrer Bibliothek, die auch meistens nur im Hochschulnetz zur Verfügung stehen, da die Verlage keinen freien Zugriff zulassen. Durch die Verbindung mittels VPN wirkt es jedoch als ob Sie aus dem Hochschulnetz auf beispielsweise ein eBook zugreifen.
