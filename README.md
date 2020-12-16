@@ -151,6 +151,8 @@ Vor Windows 10 war [Cygwin](https://cygwin.com/) die einzige Möglichkeit das "L
 
 Bei [Cmder](https://cmder.net/) handelt es sich um einen Console Emulator der nach Aussage des Autors aus reiner Frustration über die Abwesenheits eines solchen Tools unter Windows entstand. In der Vollversion enthält Cmder sowohl Git als auch eine Vielzahl an häufig genutzten Linux-Befehlen.
 
+In Kombination mit dem WSL (siehe oben), welches Sie direkt aus Cmder mittels dem Befehl `bash` starten können, erhalten Sie ein leistungsfähiges Terminal wie man es aus Linux oder MacOS kennt.
+
 ### Wichtige Kommandozeilenwerkzeuge
 
 Der Heise-Verlag stellt eine Übersicht über die [20 wichtigsten Linux-Kommandos](https://www.heise.de/tipps-tricks/Linux-Befehle-Die-20-wichtigsten-Kommandos-3843388.html) bereit. Neben diesen Basisbefehlen, gibt es noch weitere Programme, die Sie höchst wahrscheinlich in der Kommandozeile nutzen werden, wenn Sie mit Web-basierten Softwaresystemen, z.B. mittels [REST-APIs](https://de.wikipedia.org/wiki/Representational_State_Transfer), kommunizieren müssen.
