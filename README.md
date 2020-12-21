@@ -153,6 +153,11 @@ Bei [Cmder](https://cmder.net/) handelt es sich um einen Console Emulator der na
 
 In Kombination mit dem WSL (siehe oben), welches Sie direkt aus Cmder mittels dem Befehl `bash` starten können, erhalten Sie ein leistungsfähiges Terminal wie man es aus Linux oder MacOS kennt.
 
+### SSH-Clients
+
+Wenn Sie sich nur mit einem Linux-Server (oder einer virtuellen Maschine) per SSH (siehe unten) verbinden möchten, bietet sich unter Windows die Nutzung von [Putty (Open Source)](https://www.putty.org/) oder [MobaXTerm](https://mobaxterm.mobatek.net/), wobei letzteres eine etwas zeitgemäßere Benutzerschnittstelle bietet und in einer kostenfreien Version erhältlich ist.
+
+
 ### Wichtige Kommandozeilenwerkzeuge
 
 Der Heise-Verlag stellt eine Übersicht über die [20 wichtigsten Linux-Kommandos](https://www.heise.de/tipps-tricks/Linux-Befehle-Die-20-wichtigsten-Kommandos-3843388.html) bereit. Neben diesen Basisbefehlen, gibt es noch weitere Programme, die Sie höchst wahrscheinlich in der Kommandozeile nutzen werden, wenn Sie mit Web-basierten Softwaresystemen, z.B. mittels [REST-APIs](https://de.wikipedia.org/wiki/Representational_State_Transfer), kommunizieren müssen.
