@@ -16,10 +16,11 @@ Aus Sicht des Autors sind dies:
 * Wichtige Kommandozeilenwerkzeuge (curl, wget etc.)
 * Virtuelle Maschinen und Containervirtualisierung
 * VPN-Clients
+* Werkzeuge zum Datenaustausch mittels SFTP und SCP
 * SQL-Clients (geplant)
 
 Der Fokus des Tutorials ist es, unter Windows 10 arbeitsfähig zu werden.
-Linux- und Mac-Nutzer*innen benötigen den letzten Schritt nicht mehr, da ihnen die Funktionalität bereits über das Terminal zur Verfügung steht.
+Linux- und Mac-Nutzer*innen benötigen die Sektion zum Thema "Bash und das Windows Subsystem for Linux" nicht, da ihnen diese Funktionalität bereits über das Terminal zur Verfügung steht.
 
 ### Ein Vorwort zur englischen Sprache
 
@@ -217,4 +218,10 @@ Welchen VPN-Client Sie nutzen können, hängt von Ihrer Hochschule ab. Folgen di
 
 Die Wikipedia bietet einen Überblick über [VPN-Clients](https://de.wikipedia.org/wiki/OpenVPN#Windows).
 
+## Datenaustausch mittels SFTP und SCP
+
+Zum Datenaustausch mit entfernten Servern (oder virtuellen Maschinen) kommen häufig zwei Protokolle zum Einsatz: [SFTP](https://de.wikipedia.org/wiki/SSH_File_Transfer_Protocol) oder [SCP](https://de.wikipedia.org/wiki/Secure_Copy).
+* Für SFTP bietet sich [Filezilla](https://filezilla-project.org/) an, welches für Linux, MacOS und Windows erhältlich ist.
+* Zur Verwendung von (u.a.) SCP hat sich unter Windows [WinSCP](https://winscp.net/eng/download.php) durchgesetzt.
+* Vergleichbare Funktionalität unter MacOS und Windows bietet [Cyberduck](https://cyberduck.io/). Hierbei ist allerdings zu beachten, dass für eine SCP-Verbindung SFTP als Verbindungstyp gewählt werden muss.
 ## SQL-Clients (geplant)
