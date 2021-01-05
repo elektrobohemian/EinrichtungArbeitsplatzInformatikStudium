@@ -64,7 +64,7 @@ apt-get install nginx
 ```
 
 ## Installation von Git
-Das Arbeiten ohne eine Versionscontrolle ist möglich, aber sinnlos (frei nach Loriot). Aktuell ist Git das wohl am weitesten verbreitete Kommandozeilentool aus diesem Bereich. Sie werden es auch benötigen, um Beispielcode oder Programme von GitHub oder GitLab herunterzuladen bzw. um Repositories zu clonen.
+Das Arbeiten ohne eine Versionskontrolle ist möglich, aber sinnlos (frei nach Loriot). Aktuell ist Git das wohl am weitesten verbreitete Kommandozeilentool aus diesem Bereich. Sie werden es auch benötigen, um Beispielcode oder Programme von GitHub oder GitLab herunterzuladen bzw. um Repositories zu clonen.
 
 ### Windows
 Die Installationsdateien für Windows können Sie [hier](https://git-scm.com/download/win) herunterladen.
