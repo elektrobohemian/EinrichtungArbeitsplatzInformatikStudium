@@ -7,7 +7,7 @@ Den Anstoß für die Idee ein solches Tutorial zu erstellen, lieferte [Felix Rie
 
 ### Thematische Schwerpunkte
 
-Im Rahmen des Tutorials entsteht ein Arbeitsplatz mit dem die typischerweise in 2020 genutzten Entwicklungstechnologien und Werkzeuge genutzt werden können.
+Im Rahmen des Tutorials entsteht ein Arbeitsplatz mit dem die typischerweise in 2020/2021 genutzten Entwicklungstechnologien und Werkzeuge genutzt werden können.
 Aus Sicht des Autors sind dies:
 * Paketverwaltungswerkzeuge
 * Git
