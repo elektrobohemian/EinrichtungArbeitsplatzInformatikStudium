@@ -125,6 +125,8 @@ to do
 
 * [Automatisierte Erzeugung von Inhaltsverzeichnissen für Markdown-Dokumente](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)
 
+*[Zugriff auf Remote-Server und VMs mittels SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+
 ### Relevante Einstiegspunkte in die Dokumentation von VS Code
 
 * [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
